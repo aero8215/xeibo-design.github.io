@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/> -->
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>XDAx</title>
+</head>
+<body>
+    <div class="main">
+        <section class="account pb-5">
+            <div class="container">
+                <div class="row py-5 justify-content-center align-items-start">
+                    <div class="col text-left">
+                        <img src="img/logo.png">
+                    </div>
+                    <div class="col text-end">
+                      <div class="top-summary">
+                        <span>Welcome</span><br>
+                        <span  style="font-family:GraphikSemibold;">Agustina Petroselli</span>
+                        <hr>
+                        <small><b>Last Log in</b> 21 de Septiembre 15:03</small>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="link-group">
+                      <div class="home me-3">
+                        <a href="#"><img src="img/icon-home.png"></a>
+                      </div>
+                      <div class="user" >
+                        <img src="img/icon-user.png" class="activable">
+                        <img src="img/icon-user-active.png" class="activated">
+                        <ul class="dropdown-links">
+                          <li><a class="dropdown-link" href="dashboard.html">Dashboard</a></li>
+                          <li><a class="dropdown-link" href="account.html">Account</a></li>
+                          <li><a class="dropdown-link" href="soporte.html">Support</a></li>
+                          <li><a class="dropdown-link" href="#">Sign Out</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                    <div class="col-md-10 mt-md-5 mt-3">
+                        <div class="heading justify-content-between">
+                          <div><img src="img/icon-xdax.png"> XDAx | 0098-897</div>
+                          <div><small class="fw-light" style="font-size: 12px;">>Go back</small></div>
+                        </div>
+                        <div class="subheading text-end">
+                          <span></span>
+                        </div>
+                        <div class="row mx-0">
+                          <div class="col-md-6 ps-0 pe-md-1 pe-0">
+                            <div class="row mx-0">
+                              <div class="col-md-4 bg-lightblue mt-1" style="border-right: 1px solid #4f817b!important;">
+                                <div class="withdrawal-box">
+                                  <img src="img/logo2.png" alt="">
+                                  <img src="img/icon-xdax2.png" alt="">
+                                  <p><small class="secondary-color"><span>XDAx</span> | 0098-897</small></p>
+                                </div>
+                              </div>
+                              <div class="col-md-8 bg-lightblue mt-1">
+                                <div class="withdrawal-box">
+                                  <p><strong>Available Balance</strong></p>
+                                  <h2 class="secondary-color">$10,868.88</h2>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6 ps-0  ps-md-1 pe-0">
+                            <div class="row mx-0">
+                              <div class="col-md-6 px-md-1 px-0 mt-1">
+                                <div class="withdrawal-box bg-white">
+                                  <p>Yesterday's Position</p>
+                                  <h2>+$3,49</h2>
+                                  <div>
+                                    <img src="img/icon-widthrawal2.png" alt="">
+                                    <p class="ms-2 secondary-color"  style="font-family:GraphikSemibold;">+0,03</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 pe-0 ps-md-1 ps-0 border-start mt-1">
+                                <div class="withdrawal-box bg-white">
+                                  <img src="img/icon-widthrawal.png" alt="">
+                                  <p class="third-color mt-3" style="font-family: GraphikSemibold;">Withdraw</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="withdrawal-amount">
+                          <form action=""></form>
+                            <div class="row align-items-end">
+                                <div class="col-md-4 mt-md-0 mt-1 position-relative">
+                                    <label for="date" class="form-label">Date</label>
+                                    <input type="date" class="form-control" id="date" />
+                                    <img src="img/icon-date.png" class="date-icon">
+                                </div>
+                                <div class="col-md-5 mt-md-0 mt-1">
+                                  <label for="amount" class="form-label">Amount (USD)</label>
+                                  <input type="text" class="form-control" id="amount" />
+                                </div>
+                                <div class="col-md-3 mt-md-0 mt-1 amount-btn">
+                                  <button type="submit" id="cancel" class="btn submit main-bg">Cancel</button>
+                                  <button type="submit" id="submit" class="btn submit main-bg">Submit</button>
+                                </div>
+                            </div>
+                          </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            Copyright © 2021 XDA. All rights reserved.
+        </footer>
+    </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/custom.js"></script>
+</body>
+
+</html>

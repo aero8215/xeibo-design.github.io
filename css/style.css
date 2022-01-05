@@ -1,0 +1,441 @@
+@font-face {
+    font-family: GraphikRegular;
+    src: url(../fonts/GraphikRegular.otf);
+}
+@font-face {
+    font-family: GraphikSemibold;
+    src: url(../fonts/GraphikSemibold.otf);
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+
+
+body{
+    font-family: GraphikRegular;
+}
+.primary-color{
+    color: #4F817B;
+}
+.secondary-color{
+    color: #4F817B;
+}
+.third-color{
+    color: #7F4F58;
+}
+.white-color{
+    color: #fff;
+}
+.black-color{
+    color: #212529;
+}
+.bg-lightblue{
+    background-color: #D1E8E4;
+}
+.bg-lightpink{
+    background-color: #E4DEFF;
+}
+.bg-blue{
+    background-color: #4F817B;
+    padding: 3px 10px;
+}
+.bg-white{
+    background-color: #fff;
+}
+.ff-popin-semibold{
+    font-family: Poppins-SemiBold;
+}
+.ff-popin-bold{
+    font-family: Poppins-Bold;
+}
+
+
+
+.main{
+    min-height:100vh;
+    background: url(../img/bg.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4f3f7d;
+    text-align: center;
+    color: #fff;
+    padding: 26px 15px;
+    font-size: 16px;
+}
+.card-body input {
+    border: unset;
+    border-bottom: 1px solid #212529;
+    border-radius: 0px;
+    padding: 0.75rem 0.7rem;
+}
+.form-control:focus {
+    border: unset;
+    border-bottom: 1px solid #212529;
+    box-shadow: unset;
+}
+button.submit {
+    text-align: center;
+    color: #4F817B;
+    border: 1px solid #4F817B;
+    display: block;
+    border-radius: 0px;
+    padding: 8px 25px;
+    width: 150px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.forgotpass {
+    background-color: #4F817B;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+.fw-bold{
+    font-family: 'GraphikSemibold';
+}
+.heading {
+    background-color: #4F817B;
+    padding: 8px 12px;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    font-family: GraphikSemibold;
+}
+.heading img {
+    margin-right: 7px;
+}
+.subheading {
+    color: #fff;
+    padding: 12px;
+    font-size: 12px;
+}
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 4px;
+}
+thead {
+    background-color: #D1E8E4;
+}
+.records tbody tr {
+    background-color: #fff;
+}
+.records th, .records td {
+    padding: 9px 5px 9px 20px;
+}
+.records th {
+    color: #4f817b;
+    white-space: nowrap;
+    font-size: 19px;
+}
+.records input {
+    display: none;
+}
+.records label{
+    position: relative;
+}
+.records label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.records input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: 9px;
+    width: 11px;
+    height: 23px;
+    border: solid #4f817b;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+.records {
+    width: 100%;
+    overflow: auto;
+}
+.records::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #4F817B;
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+.records::-webkit-scrollbar
+{
+	width: 7px !important;
+	background-color: transparent;
+}
+
+.records::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px #4F817B;
+	background-color: #4F817B;
+}
+.contact-us input {
+    border: unset;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 0px;
+    padding: 0.75rem 0.7rem;
+    background-color: transparent;
+    
+    color: #fff;
+}
+.contact-us label {
+    color: #fff;
+}
+.contact-us .form-control:focus {
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.contact-us button.submit {
+    background-color: #D1E8E4;
+    color: #525252;
+    border: unset;
+}
+.top-summary {
+    color: #fff;
+    line-height: 1;
+    max-width: 300px;
+    float: right;
+    font-family: 'GraphikRegular';
+}
+.top-summary hr {
+    margin: 0.3rem 0;
+}
+.top-summary small {
+    font-size: 12px;
+}
+.dropdown-links{
+    display: none;
+}
+.link-group {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 6px;
+    padding: 0px;
+}
+.user.active .dropdown-links{
+    display: block;
+}
+.user{
+    position: relative;
+}
+.user img {
+    cursor: pointer;
+}
+.dropdown-links {
+    position: absolute;
+    top: 29px;
+    right: 0px;
+    background-color: #4F817B;
+    padding: 10px 17px 15px 10px;
+    text-align: right;
+}
+.dropdown-links li{
+    list-style: none;
+    padding: 5px 0px 5px 25px;
+    border-bottom: 1px solid #fff;
+}
+.dropdown-links li:last-child {
+    border-bottom: unset;
+}
+.dropdown-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 0px;
+}
+.activated{
+    display: none;
+}
+.user.active .activable{
+    display: none;
+}
+.user.active .activated{
+    display: block;
+}
+.account-box {
+    background-color: #fff;
+    padding: 50px 9px;
+    font-size: 1.2rem;
+    min-height: 250px
+}
+.account-box:hover {
+    background-color: #D1E8E4;
+}
+.withdrawal-box {
+    text-align: center;
+    padding: 15px 7px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 181px;
+    justify-content: center;
+}
+.withdrawal-box>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.withdrawal-box p{
+    margin-bottom: 0px;
+}
+p>small{
+    font-size: 13px;
+}
+.withdrawal-amount {
+    background-color: #7F4F58;
+    padding: 30px;
+    margin-top: 20px;
+}
+.withdrawal-box h2{
+    font-size: 39px;
+    padding: 20px 0;
+    font-family: 'GraphikSemibold';
+}
+.amount-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amount-btn button.submit {
+    width: auto;
+    margin: 0 5px;
+    padding: 5px 12px;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: 400;
+}
+.withdrawal-amount label {
+    color: #fff;
+}
+.withdrawal-amount input {
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    padding: 0;
+}
+.withdrawal-amount .form-control:focus {
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.date-icon {
+    position: absolute;
+    top: 27px;
+    right: 12px;
+    background-color: #7f4f58;
+}
+.with-depo {
+    flex-direction: row;
+    justify-content: space-around;
+}
+.with-depo>div {
+    flex-direction: column;
+}
+.with-depo p {
+    padding: 5px 10px;
+}
+.depo p {
+    background-color: #4f817b;
+}
+.with p {
+    background-color: #7F4F58;
+}
+.performance-box {
+    background-color: #d1e8e4;
+}
+.viewbox {
+    height: 200px;
+    background-color: #d1e8e4;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+.head span {
+    background-color: #D1E8E4;
+    color: #4f817b;
+    padding: 3px 7px;
+}
+.viewlist {
+    background-color: #d1e8e4;
+    padding: 7px 0px;
+    margin: 0px 15px;
+    border-bottom: 1px solid #4f817b;
+}
+.viewlist span{
+    border-left: 1px solid;
+    padding: 0px 7px;
+}
+.viewlist span:first-child {
+    border: none;
+}
+.footing {
+    background-color: #fff;
+    padding: 10px 12px;
+    font-size: 19px;
+    color: #212529;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    font-family: GraphikSemibold;
+}
+.withdrawal-box span {
+    font-family: 'GraphikSemibold';
+}
+.withdrawal-box strong {
+    font-family: 'GraphikSemibold';
+    font-size: 1.2rem;
+}
+.performance-box p {
+    font-size: 19px;
+}
+
+
+
+@media (max-width: 992px){
+    .border-end {
+        border: unset !important;
+    }
+    .withdrawal-box h2{
+        font-size: 25px;
+    }
+}
+@media (max-width: 767px){
+    .amount-btn {
+        justify-content: start;
+    }
+    .withdrawal-amount {
+        padding: 20px 15px;
+    }
+}
